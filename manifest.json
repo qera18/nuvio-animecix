@@ -1,0 +1,16 @@
+{
+  "id": "animecix-nuvio-provider",
+  "name": "AnimeciX Nuvio Saglayici",
+  "version": "1.0.0",
+  "description": "Animecix icerikleri icin Nuvio eklentisi",
+  "icon": "https://animecix.net/assets/images/favicon.png",
+  "providers": [
+    {
+      "id": "animecix_source",
+      "name": "AnimeciX Hizli Oynatici",
+      "api": "https://raw.githubusercontent.com/qera18/nuvio-animecix/main/index.js",
+      "type": "series",
+      "contentType": "javascript"
+    }
+  ]
+}
